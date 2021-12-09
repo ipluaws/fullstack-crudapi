@@ -38,5 +38,5 @@ jobs:
     - name: Build and Push Docker Image
       uses: docker/build-push-action@v2
       with:
-        image: iplusaha25/full-stack
+        tags: iplusaha25/full-stack
 
