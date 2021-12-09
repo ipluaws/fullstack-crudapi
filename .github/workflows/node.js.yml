@@ -33,7 +33,7 @@ jobs:
       uses: mr-smithers-excellent/docker-build-push@v4
       with:
         image: iplusaha25/full-stack
-        registry: docker.io
+        registry: hub.docker.com
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
 
